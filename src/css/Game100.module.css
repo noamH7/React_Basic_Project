@@ -1,0 +1,58 @@
+.Game100 {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .gameBoards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .gameBoards div{
+    flex-grow: 1;
+  }
+  
+  .opening {
+    margin-bottom: 20px;
+  }
+  
+  
+  .gamersList {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+  
+  .gamersList li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 2px;
+    border-radius: 8px;
+    background-color: rgb(180, 230, 230);
+  }
+  
+  .gameInProgress {
+    margin-top: 20px;
+  }
+  
+  .gameInProgress h2 {
+    margin-bottom: 10px;
+  }
+  
+  .button-top3 {
+    float: left;
+    margin-top: 10px;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #4aa2b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-top3:hover {
+    background-color: #4aa2b8c7;
+  }
+  

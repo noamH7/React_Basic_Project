@@ -1,0 +1,63 @@
+/* src/css/ControlPanel.css */
+
+.control-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.format-buttons, .special-actions, .dropdowns {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.format-buttons button, .special-actions button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s, color 0.3s, transform 0.1s;
+}
+
+.format-buttons button.active, .special-actions button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.format-buttons button:hover, .special-actions button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.format-buttons button:active, .special-actions button:active {
+    transform: scale(0.98);
+}
+
+.dropdowns select {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.dropdowns select:hover {
+    border-color: #007bff;
+}
+
+/* Custom CSS for text display */
+.text-display {
+    border: 1px solid #050303;
+    padding: 10px;
+    min-height: 100px;
+    margin: 20px;
+    white-space: pre-wrap;
+    font-family: 'Arial', sans-serif; /* Default font family */
+}
